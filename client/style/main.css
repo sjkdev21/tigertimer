@@ -1,0 +1,39 @@
+.pageTitle{
+    text-align:center;
+    color:#337ab7;
+}
+
+
+/*Navbar inprovements*/
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color:#FFC341;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:#FFC341;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+.navbar .navbar-brand:hover {
+    color:#FFC341;
+}
+.navbar .navbar-nav > li > a:hover {
+    color:#FFC341;
+}
+
+button.navbar-toggle {
+    color:white;
+}
