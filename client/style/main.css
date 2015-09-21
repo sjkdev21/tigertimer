@@ -1,5 +1,4 @@
-.pageTitle{
-    text-align:center;
+.pageTitle, .pageSubTitle{
     color:#337ab7;
 }
 
@@ -35,5 +34,5 @@
 }
 
 button.navbar-toggle {
-    color:white;
+    color:#23527c;
 }
