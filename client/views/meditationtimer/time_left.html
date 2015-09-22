@@ -1,8 +1,8 @@
 <template name="timeLeft">
     <div class="row-fluid">
         <div class="col-md-12">
-            <h1 class="text-center">{{minsLeft}} Minutes Left</h1>
-            <div class="progress center-block">
+            <h1 class="text-center">{{pluralize minsLeft "Minute"}} Left</h1>
+            <div class="progress center-block meditation-progress-bar">
                 <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="{{percentComplete}}" aria-valuemin="0" aria-valuemax="100" style="width:{{percentComplete}}%">
                     <span class="sr-only">{{percentComplete}}% Complete (warning)</span>
                 </div>

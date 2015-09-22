@@ -21,13 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="time_left.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="time_left.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/time_left.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.142857">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.115519255">
+              <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharedhelpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/sharedhelpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -36,8 +48,8 @@
       <file leaf-file-name="select_time.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/select_time.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state vertical-scroll-proportion="-3.142857">
+              <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -51,16 +63,6 @@
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_schemas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/_schemas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -104,8 +106,8 @@
       <file leaf-file-name="session_complete.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/session_complete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9285715">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="69" />
+            <state vertical-scroll-proportion="-2.357143">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -123,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/style/timer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.036707453">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -139,8 +141,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -173,17 +175,18 @@
         <option value="$PROJECT_DIR$/server/fixtures.js" />
         <option value="$PROJECT_DIR$/server/deny.js" />
         <option value="$PROJECT_DIR$/server/allow.js" />
-        <option value="$PROJECT_DIR$/client/views/meditationtimer/select_time.html" />
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/shared/navbar.html" />
         <option value="$PROJECT_DIR$/client/views/meditationtimer/select_time.js" />
         <option value="$PROJECT_DIR$/lib/collections/sessions.js" />
-        <option value="$PROJECT_DIR$/client/views/meditationtimer/time_left.html" />
         <option value="$PROJECT_DIR$/client/views/meditationtimer/session_complete.js" />
         <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/views/meditationtimer/time_left.js" />
         <option value="$PROJECT_DIR$/client/views/meditationtimer/session_complete.html" />
         <option value="$PROJECT_DIR$/client/style/timer.css" />
+        <option value="$PROJECT_DIR$/client/views/meditationtimer/select_time.html" />
+        <option value="$PROJECT_DIR$/client/views/meditationtimer/sharedhelpers.js" />
+        <option value="$PROJECT_DIR$/client/views/meditationtimer/time_left.html" />
       </list>
     </option>
   </component>
@@ -901,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/select_time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -929,36 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/time_left.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/time_left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.142857">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/session_complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9285715">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -969,9 +934,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/style/timer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036707453">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/select_time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.142857">
+          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/time_left.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/sharedhelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/session_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.357143">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/meditationtimer/time_left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115519255">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
