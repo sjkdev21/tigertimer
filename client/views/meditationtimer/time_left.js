@@ -11,7 +11,7 @@ Sessions.update(currentSessionId, {$set: {minutesRemaining : 5}}, function(error
  */
 
 function updateRemainingTime(currentSession) {
-    var currentTimeLeft = currentSession.timeRemaining
+    currentTimeLeft = currentSession.timeRemaining
     interval = Meteor.setInterval(function() {
                     if (currentTimeLeft > 0){
                         currentTimeLeft--;
@@ -47,11 +47,35 @@ Template.timeLeft.helpers({
         var secondsLeft = Session.get("timeLeft");
         var secondsTotal = Template.instance().data.duration;
         return (((secondsTotal-secondsLeft)/secondsTotal) * 100);
+    },
+    paused: function() {
+        return Session.get("pauseState");
     }
 });
 
 Template.timeLeft.hooks({
     destroyed: function () {
         Meteor.clearInterval(interval);
+    }
+});
+
+Template.timeLeft.events({
+    'click #pauseButton': function(e){
+        var currentSession = Template.instance().data;
+        Sessions.update(currentSession._id, {$set: {"timeRemaining" : currentTimeLeft}}, function(error) {});
+        Session.set("pauseState", true);
+        Meteor.clearInterval(interval);
+        console.log("timer paused");
+    },
+    'click #resumeButton': function(e){
+        Session.set("pauseState", false);
+        updateRemainingTime(Template.instance().data);
+        console.log("timer resumed");
+    },
+    'click #endButton': function(e){
+        var currentSession = Template.instance().data;
+        Sessions.update(currentSession._id, {$set: {"timeRemaining" : currentTimeLeft, endedAt: new Date(), isInProgress:false}}, function(error) { });
+        console.log("timer end");
+        Router.go('sessionComplete', {_id: currentSession._id});
     }
 });
