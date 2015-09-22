@@ -4,7 +4,9 @@
 Template.selectTime.events({
     'click': function(e){
         e.preventDefault();
-        var value = $(e.target).val();
-        alert(this.value());
+        var sessionDuration = $(e.target).attr("value");
+        var sessionId = Sessions.insert({"duration": sessionDuration});
+        Router.go('timeLeft', {_id: sessionId});
+
     }
 });
