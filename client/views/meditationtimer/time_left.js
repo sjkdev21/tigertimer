@@ -49,27 +49,9 @@ Template.timeLeft.helpers({
         return (((secondsTotal-secondsLeft)/secondsTotal) * 100);
     }
 });
-// Doing this the old school way... for science!  For a cleaner approach, use reactive-var package
-    /*
-var _minutesLeft = 0;
-var _minutesLeftTracker = new Tracker.Dependency();
 
-minutesLeft = function() {
-    _minutesLeftTracker.depend();
-    return _minutesLeft;
-};
-
-
-// Initialize _minutesLeft to be the same as this Session's Duration
-Template.timeLeft.onCreated(function() {
-    //Session.set('postEditErrors', {});
-    _minutesLeft = this.data.duration;
-});
-
-
-Template.timeLeft.helpers({
-    minsLeft: function () {
-       return minutesLeft();
+Template.timeLeft.hooks({
+    destroyed: function () {
+        Meteor.clearInterval(interval);
     }
 });
-     */

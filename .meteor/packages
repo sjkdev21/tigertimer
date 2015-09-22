@@ -21,3 +21,4 @@ sacha:spin
 useraccounts:bootstrap
 useraccounts:core
 useraccounts:iron-routing
+aldeed:template-extension
