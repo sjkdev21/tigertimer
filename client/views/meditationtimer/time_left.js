@@ -11,12 +11,12 @@ Sessions.update(currentSessionId, {$set: {minutesRemaining : 5}}, function(error
  */
 
 function updateRemainingTime(currentSession) {
-    currentTimeLeft = currentSession.timeRemaining
+    currentTimeLeft = currentSession.timeRemaining;
     interval = Meteor.setInterval(function() {
                     if (currentTimeLeft > 0){
                         currentTimeLeft--;
                         Session.set("timeLeft", currentTimeLeft);
-                        if (currentTimeLeft % 10 == 0){
+                        if (currentTimeLeft % 5 == 0){
                             Sessions.update(currentSession._id, {$set: {"timeRemaining" : currentTimeLeft}}, function(error) {
                                 //console.log(error);
                             });

@@ -9,7 +9,9 @@
 				</div>
 				<div id="user-nav-menu" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-                       {{> loginButtons}} <!--Menu Items Here-->
+                       {{#if currentUser}}
+                           <li><a class="close-navbar" href="{{pathFor route='signOut'}}">Sign Out</a></li>
+                       {{/if}}
 					</ul>
 				</div>
 		</div>
