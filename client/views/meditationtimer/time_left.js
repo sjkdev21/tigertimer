@@ -74,7 +74,7 @@ Template.timeLeft.events({
     },
     'click #endButton': function(e){
         var currentSession = Template.instance().data;
-        Sessions.update(currentSession._id, {$set: {"timeRemaining" : currentTimeLeft, endedAt: new Date(), isInProgress:false}}, function(error) { });
+        Sessions.update(currentSession._id, {$set: {"timeRemaining" : currentTimeLeft, endedAt: new Date(), isInProgress:false}}, function(error) {});
         console.log("timer end");
         Router.go('sessionComplete', {_id: currentSession._id});
     }
