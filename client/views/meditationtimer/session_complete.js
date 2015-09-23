@@ -9,3 +9,7 @@ Template.sessionComplete.helpers({
         return Math.floor(secondsMeditated/60);
     }
 });
+
+Template.sessionComplete.onCreated(function() {
+    $("#meditationBell").trigger("play");
+});
