@@ -9,5 +9,6 @@ Template.home.events({
         $("#meditationBell").trigger("pause");
         console.log("audio initialized");
         Router.go("selectTime");
+
     }
 });

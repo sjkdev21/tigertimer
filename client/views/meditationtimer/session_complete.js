@@ -12,4 +12,8 @@ Template.sessionComplete.helpers({
 
 Template.sessionComplete.onCreated(function() {
     $("#meditationBell").trigger("play");
+    if(Meteor.isCordova){
+        var test = playSound('/sounds/meditationbell.mp3');
+        test.play();
+    }
 });
