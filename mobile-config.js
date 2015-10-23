@@ -24,6 +24,8 @@ App.icons({
     // ... more screen sizes and platforms ...
 });
 
+App.accessRule('*');
+
 App.launchScreens({
     'iphone': 'public/img/ios/splash/Default@2x~iphone_640x960.png',
     'iphone6': 'public/img/ios/splash/Default-750@2x~iphone6-portrait_750x1334.png',
