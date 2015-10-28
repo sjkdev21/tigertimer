@@ -10,13 +10,11 @@ aldeed:collection2
 accounts-base
 accounts-password
 alanning:roles
-twbs:bootstrap
 fortawesome:fontawesome
 yogiben:admin
 msavin:mongol
 underscore
 sacha:spin
-useraccounts:bootstrap
 useraccounts:core
 useraccounts:iron-routing
 aldeed:template-extension
@@ -35,3 +33,5 @@ random
 ejson
 spacebars
 check
+driftyco:ionic
+angular
