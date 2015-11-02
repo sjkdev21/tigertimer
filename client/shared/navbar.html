@@ -1,19 +1,13 @@
 <template name="navbar">
-	<div class="template-navbar">
-		<div class="navbar ">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#user-nav-menu">
-						<i class="fa fa-bars"></i>
-					</button>
-					<a class="navbar-brand" href="{{pathFor 'home'}}">Tiger Timer</a>
-				</div>
-				<div id="user-nav-menu" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-                       {{#if currentUser}}
-                           <li><a class="close-navbar" href="{{pathFor route='signOut'}}">Sign Out</a></li>
-                       {{/if}}
-					</ul>
-				</div>
-		</div>
-	</div>
+    <div class="tabs tabs-icon-only">
+        <a class="tab-item">
+            <i class="icon ion-home"></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-star"></i>
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-gear-a"></i>
+        </a>
+    </div>
 </template>
